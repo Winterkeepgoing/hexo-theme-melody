@@ -23,6 +23,7 @@
     display = 'false'
   }
 -
+- site.posts = site.posts.filter(item => item.type !== 'gallery')
 #sidebar(data-display=display)
   if(showToc)
     .toggle-sidebar-info.text-center
