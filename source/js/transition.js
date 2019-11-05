@@ -9,7 +9,7 @@ $(function () {
       complete: function () {
         if ($('#sidebar').data('display')) {
           setTimeout(function () {
-            $('#toggle-sidebar').click()
+            // $('#toggle-sidebar').click()
           }, 200)
         }
       }
